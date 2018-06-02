@@ -1,4 +1,4 @@
-const mymap = L.map('mapid').setView([19.182755,72.840157], 15);
+const mymap = L.map('mapid').setView([19.1896799,72.83241559999], 14);
 L.tileLayer(
     "https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}",
     {
@@ -11,11 +11,4 @@ L.tileLayer(
     }
   ).addTo(mymap);
 
-  var circle = L.circle([19.182755,72.840157],{
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 50
-  }).addTo(mymap);
-
-  circle.bindPopup("<b>Apt #501, Unique Deluxe</b>, Evershine Nagar, Malad-W, Mumbai 400 064");
+L.marker([19.1896799,72.83241559999]).addTo(mymap).bindPopup("<b>Apt #501, Unique Deluxe</b>, Evershine Nagar, Malad-W, Mumbai 400 064");
