@@ -26,8 +26,8 @@ footer svg{padding-right: 1rem; padding-top: 2rem;}
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
-    font-family: 'Times New Roman', Times, serif;
     color:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 p {
@@ -45,12 +45,8 @@ body {
     background: linear-gradient(90deg,#720428,#9f0733)
 }
 
-main{
-    padding-top: 10rem;
-}
 .card-img-top {
     height: 30rem;;
-
 }
 
 @media (min-width: 768px){
@@ -60,7 +56,7 @@ main{
     body {
         background-image: url(../images/yoga.png);
         background-size: cover;
-        background-position: left center;
+        background-position: left;
         padding-top: 5rem;
     }
     #mapid {height: 300px; width: 500px; padding-bottom: 100px; margin-bottom: 40px;}
