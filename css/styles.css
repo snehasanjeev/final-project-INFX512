@@ -59,9 +59,8 @@ main{
     }
     body {
         background-image: url(../images/yoga.png);
-        image-rendering: crisp-edges;
         background-size: cover;
-        background-position: center;
+        background-position: left center;
         padding-top: 5rem;
     }
 }
