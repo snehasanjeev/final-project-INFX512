@@ -1,13 +1,14 @@
+
+/*map dimensions*/
 #mapid {height: 300px; width: 300px; padding-bottom: 100px; margin-bottom: 40px;}
 
+/*footer styles*/
 footer {
     background: #091833;
-    margin: 0px;
+    margin:0px;
 }
-footer p {
-    margin:0px; 
-    line-height: 2rem;
-    color: white;
+footer h5{
+    margin:0px;
 }
 svg{
     fill:white;
@@ -18,8 +19,9 @@ svg:hover{
     transition: background-color .5s;
 }
 a{text-decoration: none;}
-footer svg{padding-right: 1rem; padding-top: 2rem;}
+footer svg{padding-right: 1rem; padding-top: 1rem;}
 
+/*container class styles*/
 .container {
     width: 1170px;
     margin-left: auto;
@@ -30,6 +32,7 @@ footer svg{padding-right: 1rem; padding-top: 2rem;}
     font-family: 'Times New Roman', Times, serif;
 }
 
+/*text elements styles*/
 p {
     font-size: 1.2rem;
     padding-bottom: 2rem;;
@@ -50,6 +53,7 @@ body {
     height: 30rem;;
 }
 
+/*styles to respond to devices*/
 @media (min-width: 768px){
     .container{
         max-width:750px;
